@@ -1,0 +1,112 @@
+/* FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); /* Kaushan Script */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap'); /* Roboto Mono */
+
+/* STYLES */
+
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Mono', monospace;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background-color: #5fa5e7;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+
+.container {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.lang-wrapper {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lang-wrapper a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  color: black;
+}
+
+.lang-wrapper a:hover {
+  color: white;
+  transition: ease-in 0.2s;
+}
+
+.img-wrapper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: end;
+}
+
+.img-wrapper #profile-picture {
+  width: 300px;
+  height: auto;
+  border-radius: 50%;
+  background-color: aliceblue;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.name-wrapper {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name-wrapper h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 3em;
+  transform: rotate(-5deg);
+  letter-spacing: 10px;
+}
+
+.description-wrapper {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em;
+}
+
+.description-wrapper h3 {
+  font-size: 1em;
+}
+
+.contact-wrapper {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.contact-wrapper a {
+  color: white;
+  padding: 0 10px;
+}
+
+.contact-wrapper i {
+  font-size: 30px;
+}
