@@ -52,12 +52,12 @@ header {
 
 .img-wrapper #profile-picture {
   width: 300px;
+  height: 300px;
   height: auto;
   border-radius: 50%;
   background-color: aliceblue;
   margin: 0 auto;
   overflow: hidden;
-  background: url('../img/profile-picture.jpg');
 }
 
 .name-wrapper {
