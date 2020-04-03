@@ -1,10 +1,3 @@
-/* FONTS */
-
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap'); /* Kaushan Script */
-@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700&display=swap'); /* Roboto Mono */
-
-/* STYLES */
-
 html,
 body {
   width: 100vw;
@@ -64,11 +57,12 @@ header {
   background-color: aliceblue;
   margin: 0 auto;
   overflow: hidden;
+  background: url('../img/profile-picture.jpg');
 }
 
 .name-wrapper {
   width: 100%;
-  height: 10%;
+  height: 15%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,14 +70,14 @@ header {
 
 .name-wrapper h1 {
   font-family: 'Kaushan Script', cursive;
-  font-size: 3em;
+  font-size: 3.5em;
   transform: rotate(-5deg);
   letter-spacing: 10px;
 }
 
 .description-wrapper {
   width: 100%;
-  height: 10%;
+  height: 5%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,18 +89,23 @@ header {
 }
 
 .contact-wrapper {
+  width: 20%;
+  height: 20%;
+  margin: 0 auto;
+}
+
+.logo-wrapper {
   width: 100%;
-  height: 10%;
+  height: 100%;
   display: flex;
   align-items: start;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.contact-wrapper a {
+.logo-wrapper a {
   color: white;
-  padding: 0 10px;
 }
 
-.contact-wrapper i {
+.logo-wrapper i {
   font-size: 30px;
 }
