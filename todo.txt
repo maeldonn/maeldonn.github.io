@@ -1,0 +1,57 @@
+###############
+#   GENERAL   #
+###############
+
+** Idées **
+
+- Spinner
+- animate.css
+- hover.css
+- maps
+- Jquerry ?
+- modernizr.js
+- Stellar.js
+
+- Ajouter bouton revenir en haut de page
+
+
+
+##############
+#   HEADER   #
+##############
+
+** RESPONSIVE **
+
+-----------------
+-  HORIZONTALE  -
+-----------------
+
+- police du texte ✅
+- espacement entre les logos ✅
+- position des élements ✅
+- En dessous de 300px ✅
+- Bug de l'image (gérer sa taille) ✅
+- Gérer plus grand que 1900px ❌
+
+---------------
+-  VERTICALE  -
+---------------
+
+( A faire quand le horizontale est fonctionnel )
+
+- ordi ✅
+- autres tailles ✅
+- Gérer plus grand que 900px ❌
+- Problème sur ios ❌
+
+** ANIMATIONS **
+
+- :hover des logos ✅
+
+###################
+#   DESCRIPTION   #
+###################
+
+** Idées **
+
+- Parallax effect pour arriver sur la page
