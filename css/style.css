@@ -210,8 +210,12 @@ header {
   }
 }
 
-@media screen and (max-height: 570px) {
-  header {
-    height: 570px;
+@media screen and (max-height: 570px) and (max-width: 750px) {
+  .img-wrapper {
+    height: 250px;
+  }
+
+  .name-wrapper {
+    height: 100px;
   }
 }
